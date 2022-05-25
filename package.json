@@ -4,7 +4,9 @@
   "description": "this is a test directory to learn GIT and Node",
   "main": "index.html",
   "scripts": {
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/AshkanAleshams/git-test/issues"
   },
-  "homepage": "https://github.com/AshkanAleshams/git-test#readme"
+  "homepage": "https://github.com/AshkanAleshams/git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
