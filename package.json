@@ -1,0 +1,19 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "this is a test directory to learn GIT and Node",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshkanAleshams/git-test.git"
+  },
+  "author": "Ashkan Aleshams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AshkanAleshams/git-test/issues"
+  },
+  "homepage": "https://github.com/AshkanAleshams/git-test#readme"
+}
